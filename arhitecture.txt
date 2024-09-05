@@ -1,0 +1,37 @@
+/project-root
+├── /public                # Папка для статических файлов (изображения, шрифты и т.д.)
+├── /src
+│   ├── /components        # Переиспользуемые React-компоненты
+│   ├── /containers        # Компоненты-обертки, которые могут включать бизнес-логику
+│   ├── /hooks             # Пользовательские хуки
+│   ├── /pages             # Страницы Next.js (автоматически маршрутизируемые)
+│   ├── /redux             # Redux (actions, reducers, store)
+│   │   ├── /actions       # Redux actions
+│   │   ├── /reducers      # Redux reducers
+│   │   └── store.js       # Настройка Redux store
+│   ├── /styles            # SCSS/CSS стили
+│   │   ├── /components    # Стили для компонентов
+│   │   ├── /pages         # Стили для страниц
+│   │   └── global.scss    # Глобальные стили
+│   ├── /utils             # Утилитарные функции
+│   ├── /types             # TypeScript типы (если используется TypeScript)
+│   └── /config            # Конфигурационные файлы (например, API endpoints)
+├── /tests                 # Тесты для компонентов и логики
+├── .eslintrc.json         # Конфигурация ESLint
+├── .prettierrc            # Конфигурация Prettier
+├── next.config.js         # Конфигурация Next.js
+├── package.json           # Зависимости проекта и скрипты
+└── README.md              # Документация проекта
+
+
+
+
+
+
+Hero Section-
+Categories-
+Devices-
+FAQs
+Pricing
+CTA
+Footer

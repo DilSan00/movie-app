@@ -1,0 +1,27 @@
+.sectionTitleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.sectionTitle {
+  width: 90%;
+  display: grid;
+  gap: 10px;
+
+  .title, .description {
+    margin: 0;
+  }
+}
+
+.title {
+  font-size: 28px;
+  font-weight: var(--bold);
+  color: var(--white);
+}
+
+.description {
+  font-size: 16px;
+  font-weight: var(--regular);
+  color: var(--grey60);
+}

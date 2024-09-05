@@ -1,0 +1,40 @@
+.footer {
+  background-color: var(--black06);
+  padding: 80px 80px 40px 80px;
+}
+
+.footerContainer {
+  display: grid;
+  gap: 80px;
+}
+
+.footerNav {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footerEnd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--black15);
+  padding-top: 20px;
+}
+
+.footerEnd div {
+  display: flex;
+  gap: 16px;
+}
+
+.footerEnd p {
+  font-size: 14px;
+  font-weight: var(--regular);
+  color: var(--grey60);
+}
+
+.line {
+  width: 1px;
+  height: 21px;
+  background-color: var(--black15);
+}

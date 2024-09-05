@@ -1,0 +1,63 @@
+.questionCard {
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  border-bottom: 1px solid transparent;
+  padding: 24px;
+  transition: all 0.3s ease-in-out;
+}
+
+.questionCard::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(229, 0, 0, 0) 0%, #E50000 17%, rgba(229, 0, 0, 0) 100%);
+}
+
+.questionId {
+  max-height: 50px;
+  height: 100%;
+  font-size: 16px;
+  font-weight: var(--semibold);
+  color: var(--white);
+  background-color: var(--black12);
+  border: 1px solid var(--black15);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.questionText {
+  max-width: 460px;
+  display: grid;
+  gap: 14px;
+}
+
+.questionTitle {
+  font-size: 20px;
+  color: var(--white);
+  margin: 0;
+}
+
+.questionDescription {
+  font-size: 16px;
+  font-weight: var(--regular);
+  color: var(--grey60);
+  margin: 0;
+  transform: translateX(-20x);
+  transition: all 0.3s ease-in-out forwards;
+}
+
+.questionBtn {
+  cursor: pointer;
+  font-size: 24px;
+  color: var(--white);
+  background-color: transparent;
+  border: none;
+}

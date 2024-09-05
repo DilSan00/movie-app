@@ -1,0 +1,44 @@
+.buttonSlider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: var(--black06);
+  border: 1px solid var(--black12);
+  border-radius: 10px;
+  padding: 12px;
+  max-width: 205px;
+}
+
+.arrowBtn {
+  width: 44px;
+  height: 44px;
+  background-color: var(--black10);
+  border: 1px solid var(--black12);
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.pointContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.pointItem {
+  background-color: var(--black20);
+  border-radius: 100px;
+  width: 14px;
+  height: 4px;
+}
+
+.pointItem1 {
+  background-color: var(--red45);
+  border-radius: 100px;
+  width: 18px;
+  height: 4px;
+  animation: onPoint .4s linear forwards;
+}
+
+@keyframes onPoint {
+  from {background-color: var(--black20);}
+  to {background-color: var(--red45);}
+}

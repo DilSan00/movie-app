@@ -1,0 +1,52 @@
+.Navigation {
+  background-color: transparent;
+  padding: 24px 80px;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 165.83px;
+  height: 50px;
+}
+
+.navList {
+  list-style-type: none;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 16px;
+  background-color: var(--black06);
+  border: 4px solid var(--black12);
+  border-radius: 10px;
+  padding: 14px 30px 14px 30px;
+}
+
+.navItem {
+  text-decoration: none;
+  font-size: 14px;
+  color: var(--grey75);
+  padding: 12px 20px;
+}
+
+.navItemActive {
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--black10);
+  border-radius: 8px;
+  padding: 12px 20px;
+}
+
+.searchDiv {
+  display: flex;
+  gap: 14px;
+}
+
+.searchDiv button {
+  background-color: transparent;
+  border: none;
+}

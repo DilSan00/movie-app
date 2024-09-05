@@ -1,0 +1,40 @@
+.heroSectionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+
+.heroSectionInfo {
+  display: grid;
+  gap: 10px;
+}
+
+.heroSectionTitle {
+  font-size: 48px;
+  font-weight: var(--bold);
+  color: var(--white);
+  text-align: center;
+  margin: 0;
+}
+
+.heroSectionDescription {
+  font-size: 14px;
+  font-weight: var(--regular);
+  color: var(--grey60);
+  text-align: center;
+  margin: 0;
+}
+
+.HeroSectionBtn {
+  font-size: 14px;
+  font-weight: var(--semibold);
+  color: var(--white);
+  background-color: var(--red45);
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 14px 24px;
+}

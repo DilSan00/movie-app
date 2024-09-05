@@ -1,0 +1,21 @@
+.button {
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: var(--semibold);
+  color: var(--white);
+  background-color: var(--red45);
+  border: none;
+  border-radius: 6px;
+  padding: 14px 20px;
+}
+
+.buttonDark{
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: var(--semibold);
+  color: var(--white);
+  background-color: var(--black08);
+  border: 1px solid var(--black15);
+  border-radius: 6px;
+  padding: 14px 20px;
+}

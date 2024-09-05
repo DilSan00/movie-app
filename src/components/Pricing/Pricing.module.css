@@ -1,0 +1,37 @@
+.pricingContainer {
+  display: grid;
+  gap: 60px;
+}
+
+.pricingTime {
+  display: flex;
+  background-color: var(--black06);
+  border: 1px solid var(--black15);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.pricingInput {
+  margin: 0;
+  font-size: 14px;
+  color: var(--grey60);
+  background-color: transparent;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.pricingInputActive {
+  transition: background .3s, color .3s ease-in-out;
+  margin: 0;
+  font-size: 14px;
+  color: var(--white);
+  background-color: var(--black12);
+  padding: 12px 20px;
+}
+
+.pricingCards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}

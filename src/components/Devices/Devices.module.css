@@ -1,0 +1,49 @@
+.devicesContainer {
+  display: grid;
+  gap: 60px;
+}
+
+.devicesCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  display: grid;
+  gap: 24px;
+  background: linear-gradient(65deg, var(--black06) 60%, var(--red45) 240%);
+  border: 1px solid var(--black15);
+  border-radius: 10px;
+  padding: 40px;
+  transition: all .3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cardHeader img {
+  background-color: var(--black08);
+  border: 1px solid var(--black12);
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.cardTitle {
+  color: var(--white);
+  font-size: 20px;
+  font-weight: var(--semibold);
+}
+
+.cardDescription {
+  color: var(--grey60);
+  font-size: 16px;
+  font-weight: var(--regular);
+}
